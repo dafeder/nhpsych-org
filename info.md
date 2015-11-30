@@ -3,11 +3,22 @@ layout: page
 title: Information for Patients and Families
 weight: 5
 ---
-* To improve the treatment, rehabilitation, and care of people with mental illness, mental retardation, and emotional disorders
-* To make knowledge of mental illness and effective psychiatric diagnosis and treatment available to the public, other physicians, and policy makers
-* To advocate for the best interests of patients and those actually or potentially making use of mental health services
-* To promote research, professional education in psychiatry, and prevent psychiatric disabilities
-* To promote high standards of care for all psychiatric services and facilities
-* To foster cooperation of all concerned with the medical, psychological, social, and legal aspects of mental health and illness
-* To establish and support the highest standards for psychatric practice and assure the highest quality of mental health care
-* To promote the establishment as well as the maintenance of emotional health
+
+**Follow these links for information about…**
+
+* [Anxiety Disorders](http://www.nimh.nih.gov/health/topics/anxiety-disorders/index.shtml)
+* [Attention Deficit/Hyperactivity Disorder (ADHD)](http://www.nimh.nih.gov/health/topics/attention-deficit-hyperactivity-disorder-adhd/index.shtml)
+* [Bipolar Disorder (Manic Depression)](http://www.nimh.nih.gov/health/topics/bipolar-disorder/index.shtml)
+* [Borderline Personality Disorder](http://www.nimh.nih.gov/health/topics/borderline-personality-disorder/index.shtml)
+* [Choosing a Psychiatrist](http://www.psychiatry.org/File%20Library/Mental%20IIlness/Lets%20Talk%20Facts/Choose-a-Psychiatrist-B1.pdf)
+* [Depression](http://www.nimh.nih.gov/health/topics/depression/index.shtml)
+* [Eating Disorders](http://psychiatry.org/mental-health/eating-disorders)
+* [Obsessive-Compulsive Disorder](http://psychiatry.org/mental-health/obsessive-compulsive-disorder)
+* [Panic Disorder](http://psychiatry.org/mental-health/panic-disorder)
+* [Phobias](http://www.healthyminds.org/Main-Topic/Phobias.aspx)
+* [Post-Traumatic Stress Disorder (PTSD)](http://www.nimh.nih.gov/health/topics/post-traumatic-stress-disorder-ptsd/index.shtml)
+* [Schizophrenia](http://nimh.nih.gov/health/topics/schizophrenia/index.shtml)
+* [Substance Abuse](http://www.nida.nih.gov/)
+* [Suicide](http://psychiatry.org/mental-health/suicide-)
+
+_NOTE: [Adobe Acrobat Reader](http://www.adobe.com/products/acrobat/readstep2.html) software required to view many of these links._
