@@ -10,16 +10,21 @@ $base-font-family: Georgia, "Times New Roman", Times, serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
+$smaller-font-size:  $small-font-size * 0.75;
 $base-line-height: 1.5;
 
 $secondary-font-family: Verdana, Helvitica, Ariel, "sans-serif";
 
-$spacing-unit:     30px;
+$logo-font-family: 'Marcellus', serif;
+
+$spacing-unit:     10px;
 
 $text-color:       #000;
 $background-color: #fff;
 $brand-color:      #00c;
 $fine-print-color: #3ff;
+$nav-text-color:   #fff;
+
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
@@ -53,3 +58,4 @@ $on-laptop:        495px;
         "layout",
         "syntax-highlighting"
 ;
+// @import url(https://fonts.googleapis.com/css?family=Marcellus);

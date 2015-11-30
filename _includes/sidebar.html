@@ -1,13 +1,13 @@
-<nav id="navbar">
+<nav class="site-nav">
   <ul class="navtext">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="news.html">News and Updates</a></li>
-    <li><a href="objectives.html">Our Objectives</a></li>
-    <li><a href="about.html">What Is A Psychiatrist?</a></li>
-    <li><a href="officers.html">Officers and Executive Council</a></li>
-    <li><a href="info.html">Information For Patients and Families</a></li>
-    <li><a href="links.html">Links</a></li>
-    <li><a href="classified.html">Classified Ads</a></li>
+    <ul>
+        {% assign pages = site.pages | sort:"weight"  %}
+        {% for p in pages %}
+           <li>
+             <a href="{{ p.url }}">{{ p.title }}</a>
+           </li>
+         {% endfor %}
+       </ul>
   </ul>
   {% include footer.html %}
 </nav>
