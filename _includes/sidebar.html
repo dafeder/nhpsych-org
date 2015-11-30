@@ -4,10 +4,11 @@
         {% assign pages = site.html_pages | sort:"weight"  %}
         {% for p in pages %}
           <li>
+            {% assign baseurl = site.baseurl %}
             {% if page.url == p.url %}
-            <a href="{{ p.url }}" class="active">{{ p.title }}</a>
+            <a href="{{ base }}/{{ p.url }}" class="active">{{ p.title }}</a>
             {% else %}
-            <a href="{{ p.url }}">{{ p.title }}</a>
+            <a href="{{ base }}{{ p.url }}">{{ p.title }}</a>
             {% endif %}
           </li>
          {% endfor %}
