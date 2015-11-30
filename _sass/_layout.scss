@@ -18,7 +18,7 @@
     position: relative;
     z-index:10000; /*a number that's more than the modal box*/
     &:after {
-        content:url('/assets/seal.png');
+        content:url('../assets/seal.png');
         position:absolute; /*or absolute*/
         z-index:100000; /*a number that's more than the modal box*/
         left: 25px;
