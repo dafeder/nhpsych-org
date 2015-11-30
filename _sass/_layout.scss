@@ -12,16 +12,16 @@
     border-width: 1px 1px 1px 0;
     border-style: solid;
     border-color: black;
-    padding: $spacing-unit $spacing-unit $spacing-unit 210px;
+    padding: $spacing-unit $spacing-unit $spacing-unit 240px;
     background-color: #fff;
-    text-align: center;
+    // text-align: center;
     position: relative;
     z-index:10000; /*a number that's more than the modal box*/
     &:after {
         content:url('/assets/seal.png');
         position:absolute; /*or absolute*/
         z-index:100000; /*a number that's more than the modal box*/
-        left: 20px;
+        left: 25px;
         top: -58px;
     }
 }
@@ -58,10 +58,10 @@
 .site-nav {
     float: left;
     position: absolute;
-    padding: 200px $spacing-unit $spacing-unit $spacing-unit;
+    padding: 200px 0 $spacing-unit 0;
     top: 0;
     left: 0;
-    width: 188px;
+    width: 210px;
     margin-left: $spacing-unit;
     background-color: $brand-color;
     color: $nav-text-color;
@@ -74,12 +74,18 @@
         padding: 0;
         list-style-type: none;
         li {
-            margin-bottom: 1em;
             a {
                 text-decoration: none;
+                display: block;
+                padding: $spacing-unit;
                 font-weight: bold;
                 &:hover {
-                    text-decoration: underline;
+                    background-color: white;
+                    color: black;
+                }
+                &.active {
+                    background-color: black;
+                    color: white;
                 }
             }
         }
@@ -145,14 +151,16 @@
     }
 }
 
-
+.list-upper-roman {
+    list-style: upper-roman
+}
 
 /**
  * Site footer
  */
 .site-footer {
     border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
+    padding: $spacing-unit $spacing-unit;
 }
 
 .footer-heading {
@@ -207,7 +215,7 @@
     position: relative;
     margin-left: 240px;
     margin-right: $spacing-unit;
-    ul {
+    ul, ol {
         padding-left: 1.5em;
         li {
             padding-bottom: .5em;
@@ -289,10 +297,10 @@
     margin-bottom: $spacing-unit;
 
     h2 {
-        font-size: 22px;
+        font-size: 20px;
 
         @include media-query($on-laptop) {
-            font-size: 28px;
+            font-size: 22px;
         }
     }
 
@@ -311,4 +319,13 @@
             font-size: 18px;
         }
     }
+
+    .news-archive {
+        margin-top: 2em;
+        ul {
+
+        }
+    }
 }
+
+
