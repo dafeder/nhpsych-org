@@ -6,9 +6,9 @@
           <li>
             {% assign baseurl = site.baseurl %}
             {% if page.url == p.url %}
-            <a href="{{ base }}/{{ p.url }}" class="active">{{ p.title }}</a>
+            <a href="{{ p.url | prepend: site.baseurl }}" class="active">{{ p.title }}</a>
             {% else %}
-            <a href="{{ base }}{{ p.url }}">{{ p.title }}</a>
+            <a href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
             {% endif %}
           </li>
          {% endfor %}

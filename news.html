@@ -19,7 +19,7 @@ weight: 1
   <ul>
     {% for post in site.posts offset:1 %}
       <li>
-        <a href="{{ base }}{{ post.url }}">{{ post.title }}</a>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </li>
     {% endfor %}
   </ul>
