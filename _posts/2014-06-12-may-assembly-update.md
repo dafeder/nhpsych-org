@@ -3,7 +3,7 @@ layout: post
 title:  "May 2014 APA Assembly Report"
 author: "Robert Feder, M.D. - New Hampshire Assembly Rep"
 date:   2014-06-12 11:39:53 -0500
-category: update
+category: report
 ---
 
 1. **Finances**
@@ -27,7 +27,7 @@ category: update
 
    1. Position Statement on Prior Authorizations – This was the outcome of an Action Paper that I submitted almost two years ago. Due to multiple shufflings back and forth between various committees to get wording that everyone was happy with, it was finally approved in the following form:
 
-   The process of requiring prior authorization for payment or dispensing of psychotropic medication by third party insurance plans or other entities is detrimental to patients’ care. This process often results in delays for patients in receiving life-sustaining medications (authorization denials and the need to prescribe a non-first-choice medication), and always results in psychiatrists using large amounts of what would otherwise be clinical time to complete the essential prescribing transaction. There is no clear researched evidence base that this process improves the quality of patient care or is cost effective.  The American Psychiatric Association is therefore opposed to any requirement of prior authorization for psychotropic medications prescribed by psychiatrists prior to payment by insurers, except for instances of clear outlier practices or an established evidence base which implicates concern for patient safety. In those instances, the decision to require prior authorization or documentation should be made only by a Board Certified Psychiatrist.
+      The process of requiring prior authorization for payment or dispensing of psychotropic medication by third party insurance plans or other entities is detrimental to patients’ care. This process often results in delays for patients in receiving life-sustaining medications (authorization denials and the need to prescribe a non-first-choice medication), and always results in psychiatrists using large amounts of what would otherwise be clinical time to complete the essential prescribing transaction. There is no clear researched evidence base that this process improves the quality of patient care or is cost effective.  The American Psychiatric Association is therefore opposed to any requirement of prior authorization for psychotropic medications prescribed by psychiatrists prior to payment by insurers, except for instances of clear outlier practices or an established evidence base which implicates concern for patient safety. In those instances, the decision to require prior authorization or documentation should be made only by a Board Certified Psychiatrist.
 
    2. Increasing buprenorphine prescribing limits – This is an Action Paper that I submitted requesting that the APA work with the Drug Enforcement Administration to increase the current limit (100) on the number of patients that a single prescriber can prescribe buprenorphine to. The goal is to increase access to buprenorphine and thereby decrease the current epidemic of opioid overdose deaths. Concern was expressed that an increase in prescribing limits could lead to “buprenorphine mills” by unethical doctors, and also increase the diversion of buprenorphine. The Action Paper was passed in modified form and referred to the APA Committee on Addiction Psychiatry to come up with specific recommendations and report back to the Assembly in November 2014.
 

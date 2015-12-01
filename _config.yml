@@ -12,6 +12,9 @@ email: robertfeder1@gmail.com
 description: "NHPS is the official voice of organized psychiatry in New Hampshire. Founded in 1972, NHPS is a District Branch of the American Psychiatric Association, the national medical specialty society for 40,000 physician members, and the official voice of Psychiatry in the United States. NHPS is devoted to promoting the highest standards of care for the treatment of mental illness and substance abuse in New Hampshire."
 baseurl: "/nhpsych-org" # the subpath of your site, e.g. /blog
 url: "http://dafeder.github.io" # the base hostname & protocol for your site
-
+host: localhost
 # Build settings
 markdown: kramdown
+
+prose:
+  media: 'assets/img'
