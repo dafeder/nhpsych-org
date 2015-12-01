@@ -1,11 +1,12 @@
 ---
-published: false
+published: true
 layout: post
 author: "Robert Feder, M.D. - New Hampshire Assembly Rep"
 date: "2013-11-17 11:39:53 -0500"
 category: report
 title: November 2013 APA Assembly Report
 ---
+
 
 1. **Parity**
    As the Assembly was meeting, on November 8 the Department of Health and Human Services announced that the final rules for the federal parity legislation passed five years ago had finally been issued. These rules make it very clear that insurance companies can do nothing in regard to how they authorize/approve/process mental health benefits that differs in any way from how they treat other medical benefits. If they do so, they are breaking the law.  This is very good news.  The bad news is that Medicare and Medicaid are exempted, and the enforcement of these rules has been left up to the insurance commissioners in the individual States.  We will have to wait and see how this plays out in New Hampshire, but the State Insurance Commissioner’s office is where complaints should be filed if you feel a commercial insurer has not acted appropriately.
