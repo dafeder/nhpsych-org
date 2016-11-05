@@ -15,7 +15,7 @@ url: "http://dafeder.github.io" # the base hostname & protocol for your site
 host: localhost
 # Build settings
 markdown: kramdown
-ignore: ['*.html', '_config.yml']
 
 prose:
   media: 'assets/img'
+  ignore: ['*.html', '_config.yml']
