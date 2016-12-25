@@ -58,8 +58,4 @@ prose:
           label: "Date"
           value: CURRENT_DATETIME
           help: "Use format YYYY-MM-DD HH:MM"
-      - name: "published"
-        field:
-          element: "checkbox"
-          label: "Published"
-          value: true
+      
