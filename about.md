@@ -2,9 +2,10 @@
 layout: page
 title: What is a Psychiatrist?
 weight: 3
+published: true
 ---
 
-**Psychiatrists…**
+## Psychiatrists…
 
 * are medical doctors (MDs) specializing in the diagnosis, treatment, and prevention of mental illnesses and substance use disorders
 * have completed 4 years of college, 4 years of medical school, and an additional 4 to 6 years of intense specialty training, treating hundreds of patients with mental and emotional disorders under the supervision of senior psychiatric physicians
