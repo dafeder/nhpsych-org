@@ -48,3 +48,9 @@ prose:
           element: "text"
           label: "Author"
           value: "Robert Feder, M.D. - New Hampshire Assembly Rep"
+      - name: "date"
+        field:
+          element: "text"
+          label: "Date"
+          value: CURRENT_DATETIME
+          help: "Use format YYYY-MM-DD HH:MM"
