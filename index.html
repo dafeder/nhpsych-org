@@ -5,20 +5,47 @@ title: Home
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <p>The New Hampshire Psychiatric Society (NHPS) is a professional organization of approximately 160 physicians specializing in the treatment of mental illness.</p>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <p>NHPS is the official voice of organized psychiatry in New Hampshire. Founded in 1972, NHPS is a District Branch of the American Psychiatric Association, the national medical specialty society for 40,000 physician members, and the official voice of Psychiatry in the United States. NHPS is devoted to promoting the highest standards of care for the treatment of mental illness and substance abuse in New Hampshire.</p>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  <div class="tocgrid">
+    <div class="tocgrid-left">
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+      <h2>News and Updates</h2>
+      {% for post in site.posts limit:1 %}
+        {{ post.title }}
+      {% endfor %}
+      <a class="morelink" href="news.html">more…</a>
+
+      <h2>Our Objectives</h2>
+      To improve the treatment, rehabilitation, and care of people with mental illness, mental retardation, and emotional disorders.
+      <a class="morelink" href="objectives.html">more…</a>
+
+      <h2>What is a Psychiatrist?</h2>
+      Psychiatrists are medical doctors (MDs) specializing in the diagnosis, treatment, and prevention of mental illnesses and substance use disorders. 
+      <a class="morelink"  href="about.html">more…</a>
+
+    </div>
+
+    <div class="tocgrid-right">
+
+      <h2>Information For Patients and Families</h2>
+      Where to read more about anxiety, depression, substance abuse, and other disorders.
+      <a class="morelink" href="info.html">more…</a>
+    
+      <h2>Officers and Executive Council</h2>
+      Information on the men and women who lead NHPS.
+      <a class="morelink" href="officers.html">more…</a>
+    
+      <h2>Links</h2>
+      Organizations and resources related to our work.
+      <a class="morelink" href="links.html">more…</a>
+    
+      <h2><a href="classified.html">Classified Ads</a></h2>
+      Announcements of interest to New Hampshire psychiatrists, and information for advertisers.
+      <a class="morelink" href="classified.html">more…</a>
+      </div>
+    </div>
 
 </div>
