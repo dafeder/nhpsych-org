@@ -6,55 +6,44 @@
     margin-right: $spacing-unit;
     // width: 800px;
     height: 150px;
-}
 
-.site-title-wrapper {
-    border-width: 1px 1px 1px 0;
-    border-style: solid;
-    border-color: black;
-    padding: $spacing-unit $spacing-unit $spacing-unit 240px;
-    background-color: #fff;
-    // text-align: center;
-    position: relative;
-    z-index:10000; /*a number that's more than the modal box*/
-    &:after {
-        content:url('../assets/seal.png');
-        position:absolute; /*or absolute*/
-        z-index:100000; /*a number that's more than the modal box*/
-        left: 25px;
-        top: -58px;
-    }
-}
-
-.site-title {
-    font-family: $logo-font-family;
-    color: $brand-color;
-    font-size: 32px;
-    font-weight: 500;
-    line-height: 32px;
-    letter-spacing: -.75px;
-    text-decoration: none;
-    position: relative;
-    &:after { /* pseudo-underline */
-        content: '';
-        width: 100%;
-        position: absolute;
-        left: 0;
-        bottom: 1px;
-        border-width: 0 0 2px;
+    .site-title-wrapper {
+        border-width: 1px 1px 1px 0;
         border-style: solid;
+        border-color: black;
+        padding: $spacing-unit $spacing-unit $spacing-unit 240px;
+        background-color: #fff;
+        // text-align: center;
+        position: relative;
+        z-index:10000; /*a number that's more than the modal box*/
+        &:after {
+            content:url('../assets/seal.png');
+            position:absolute; /*or absolute*/
+            z-index:100000; /*a number that's more than the modal box*/
+            left: 25px;
+            top: -58px;
+        }
     }
-}
-.site-slogan {
-    font-family: $logo-font-family;
-    // color: $grey-color;
-    font-size: 17px;
-    letter-spacing: .2px;
-    line-height: 17px;
-    margin-bottom: 0;
-    margin-top: 5px;
+
 }
 
+
+/**
+ * Page content
+ */
+.page-content {
+    padding: $spacing-unit 0;
+    clear: both;
+    top: -60px;
+    max-width: 800px;
+    position: relative;
+    margin-left: 240px;
+    margin-right: $spacing-unit;
+}
+
+/**
+ * Site nav sidebar
+ */
 .site-nav {
     float: left;
     position: absolute;
@@ -67,30 +56,6 @@
     color: $nav-text-color;
     font-family: $secondary-font-family;
     font-size: $small-font-size;
-    a {
-        color: $nav-text-color;
-    }
-
-    ul {
-        padding: 0;
-        list-style-type: none;
-        li {
-            a {
-                text-decoration: none;
-                display: block;
-                padding: $spacing-unit;
-                font-weight: bold;
-                &:hover {
-                    background-color: white;
-                    color: black;
-                }
-                &.active {
-                    background-color: black;
-                    color: white;
-                }
-            }
-        }
-    }
 
     .page-link {
         color: $text-color;
@@ -152,37 +117,6 @@
     }
 }
 
-.list-upper-roman {
-    list-style: upper-roman
-}
-
-/**
- * Site footer
- */
-.site-footer {
-    border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit $spacing-unit;
-}
-
-.footer-heading {
-    font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
-}
-
-.contact-list,
-.social-media-list {
-    list-style: none;
-    margin-left: 0;
-    font-family: $secondary-font-family;
-    // margin-bottom: 0 !important;
-    font-size: $smaller-font-size;
-    line-height: 1.3em;
-}
-.contact-submissions {
-    font-style: italic;
-}
-
-
 @include media-query($on-laptop) {
     .footer-col-1,
     .footer-col-2 {
@@ -203,131 +137,3 @@
         width:         calc(100% - (#{$spacing-unit} / 2));
     }
 }
-
-
-
-/**
- * Page content
- */
-.page-content {
-    padding: $spacing-unit 0;
-    clear: both;
-    top: -60px;
-    max-width: 800px;
-    position: relative;
-    margin-left: 240px;
-    margin-right: $spacing-unit;
-    ul, ol {
-        padding-left: 1.5em;
-        li {
-            padding-bottom: .5em;
-            padding-top: .5em;
-        }
-    }
-    .contact-info {
-        list-style-type: none;
-        padding-left: 0;
-        margin-bottom: 2em;
-        font-weight: bold;
-        li {
-            ul {
-                list-style-type: none;
-                font-size: $small-font-size;
-                font-weight: normal;
-                padding-left: 0;
-                li {
-                    padding-bottom: 0;
-                    padding-top: 0;
-                    ul {
-                        list-style-type: none;
-                        font-size: $smaller-font-size;
-                        padding-left: 0;
-                    }
-                }
-            }
-        }
-    }
-}
-
-.page-heading {
-    font-size: 20px;
-}
-
-.post-list {
-    margin-left: 0;
-    list-style: none;
-
-    > li {
-        margin-bottom: $spacing-unit;
-    }
-}
-
-.post-meta {
-    font-size: $small-font-size;
-    color: $grey-color;
-}
-
-.post-link {
-    display: block;
-    font-size: 24px;
-}
-
-
-
-
-/**
- * Posts
- */
-.post-header {
-    margin-bottom: $spacing-unit;
-}
-
-.post-title {
-    color: $brand-color;
-    font-family: $secondary-font-family;
-    font-size: 26px;
-    letter-spacing: -1px;
-    // text-align: center;
-    margin-bottom: 1em;
-
-    @include media-query($on-laptop) {
-        font-size: 36px;
-    }
-}
-
-.post-content {
-    margin-bottom: $spacing-unit;
-
-    h2 {
-        font-size: 20px;
-
-        @include media-query($on-laptop) {
-            font-size: 22px;
-        }
-    }
-
-    h3 {
-        font-size: 18px;
-
-        @include media-query($on-laptop) {
-            font-size: 22px;
-        }
-    }
-
-    h4 {
-        font-size: 20px;
-
-        @include media-query($on-laptop) {
-            font-size: 18px;
-        }
-    }
-
-    .news-archive {
-        margin-top: 2em;
-        ul {
-
-        }
-    }
-}
-
-
