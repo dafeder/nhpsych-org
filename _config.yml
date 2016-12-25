@@ -37,8 +37,14 @@ prose:
       - name: "category"
         field:
           element: "select"
+          label: "Category"
           options:
             - name: 'Assembly Reports'
               value: 'report'
             - name: 'Newsletters'
               value: 'newsletter'
+      - name: "author"
+        field:
+          element: "text"
+          label: "Author"
+          value: "Robert Feder, M.D. - New Hampshire Assembly Rep"
