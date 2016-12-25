@@ -43,3 +43,12 @@ img {
     vertical-align: middle;
     border-width: 0;
 }
+
+a {
+    &:link {
+        text-decoration: none;
+    }
+    &:hover {
+        text-decoration: underline;
+    }
+}
