@@ -18,4 +18,13 @@ markdown: kramdown
 
 prose:
   media: 'assets/img'
-  ignore: ['*.html', 'feed.xml', '_*', '.gitignore', 'Gemfile*', 'css']
+  ignore:
+    - '*.html'
+    - 'feed.xml'
+    - '_includes'
+    - '_layouts'
+    - '_sass'
+    - '_site'
+    - '.gitignore'
+    - 'Gemfile*'
+    - 'css'
