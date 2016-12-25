@@ -4,9 +4,8 @@ category: report
 author: 'Robert Feder, M.D. - New Hampshire Assembly Rep'
 date: '2016-05-30'
 published: false
+title: May 2016 APA Assembly Report
 ---
-## May 2016 APA Assembly Report
-
 1. **Finances**
 
 	The APA’s financial status continues to strengthen. Assets have grown continuously since 2011 due to favorable investment returns and revenue from DSM 5. 
