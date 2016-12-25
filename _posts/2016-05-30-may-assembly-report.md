@@ -3,7 +3,7 @@ layout: post
 category: report
 author: 'Robert Feder, M.D. - New Hampshire Assembly Rep'
 date: '2016-05-30'
-published: false
+published: true
 title: May 2016 APA Assembly Report
 ---
 1. **Finances**
