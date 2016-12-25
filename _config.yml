@@ -30,6 +30,10 @@ prose:
     - 'css'
   metadata:
     _posts:
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
       - name: "layout"
         field:
           element: "hidden"
