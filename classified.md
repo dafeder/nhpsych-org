@@ -3,6 +3,7 @@ layout: page
 title: Classified Ads
 weight: 7
 ---
+
 * To improve the treatment, rehabilitation, and care of people with mental illness, mental retardation, and emotional disorders
 * To make knowledge of mental illness and effective psychiatric diagnosis and treatment available to the public, other physicians, and policy makers
 * To advocate for the best interests of patients and those actually or potentially making use of mental health services
