@@ -95,13 +95,6 @@ published: true
     * Manchester, NH 03104
     * 645-5977
     * <jrs.schwartz@gmail.com>
-    
-* Osgood Zebared, M.D.
-  * Left handed psychosis
-    * We are all crazy, Inc.
-    * 15 Oddjob St.
-    * New Bethlehem, NH  04568
-    * <oz@gmail.com>
 {:.contact-info}
 {::comment}
 To recieve the correct styling, the above line ("contact-info") must go directly
