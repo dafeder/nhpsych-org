@@ -3,7 +3,7 @@ layout: post
 category: report
 author: 'Robert Feder, M.D. - New Hampshire Assembly Rep'
 date: '2016-12-25 20:14 -0500'
-published: false
+published: true
 title: November 2016 Assembly Report
 ---
 I.	       Finances              APA revenues, expenses, and income were all relatively stable throughout 2016, with the overall financial status of the APA remaining robust.
@@ -15,4 +15,3 @@ IV.	Assembly Actions The Assembly passed the following notable action papers. Th
 3.	Smart Guns – This action paper asks the APA to support smart gun technology as one aspect of a solution to gun violence.
 4.	Treatment for Incarcerated Individuals – This asks for the APA to advocate for 1) increased numbers of psychiatrists in jails and prisons to comply with the APA’a recommended guideline of at least one psychiatrists for every 200 incarcerated individuals with severe mental illness; 2) opposition to policies that allow psychologists or pharmacists to prescribe in correctional settings; 3) psychiatrists to be leaders of multidisciplinary treatment teams in correctional settings; and 4) advocate for increased training in correctional psychiatry in order to increase the number of psychiatrists working in correctional settings. 
 5.	Position Statement on Euthanasia – The following position statement was passed: “The APA, in concert with the AMA’s position on Medical Euthanasia, holds that a psychiatrist should not prescribe or administer any intervention to a non-terminally ill person for the purpose of causing death.”
-
