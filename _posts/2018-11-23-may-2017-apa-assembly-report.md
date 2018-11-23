@@ -3,7 +3,7 @@ layout: post
 category: report
 author: 'Robert Feder, M.D. - New Hampshire Assembly Rep'
 date: '2018-06-01 12:41 -0500'
-published: false
+published: true
 title: May 2017 APA Assembly Report
 ---
 **I. Finances:**  APA revenues and expenses for 2016 were roughly equal. Total net assets of the APA and the Foundation ($148 Million) were up about 6% due to favorable performance of the stock portfolio
